@@ -1,2 +1,2 @@
 # CSCI104_DataStructure
-Qt, Goole Pagesort for the team projects
+The team project is a search engine simulation using Qt and Google pagesort algorithm
