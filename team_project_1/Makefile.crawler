@@ -1,0 +1,17 @@
+CC = g++
+CFLAGS = -g -Wall
+LDFLAGS =
+
+all: crawler
+
+Webpage.o : Webpage.cpp lib/List.h lib/Set.h Webpage.h
+	$(CC) $(CFLAGS) -c Webpage.cpp
+	
+crawler.o : crawler.cpp Webpage.h lib/Set.h lib/msort.h
+	$(CC) $(CFLAGS) -c crawler.cpp
+
+crawler : crawler.o
+	$(CC) $(CFLAGS) crawler.o -o crawler
+	
+clean:
+	rm -f crawler *.o *~
