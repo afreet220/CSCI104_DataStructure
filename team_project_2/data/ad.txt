@@ -1,0 +1,41 @@
+40
+education   0.25    USC
+Education   0.2  UC Los Angeles   
+books       0.3       amazon
+Ignition  9.8 Westing House Company Ltd.
+books       0.2        USC
+BOOKS       0.3     AMAZON
+Music       0.4  AMAZON
+music       0.4   Apple
+books       0.15  Stanford
+EDUCATION   0.25  UC Berkeley
+education   0.45  Harvard
+ignition    10.5  Marvin T. Greedy Law Firm
+CS          0.4  USC
+cs          0.4 UC Los Angeles
+CS          0.45 UC Berkeley
+CS          0.5 Stanford
+Cs          0.5   MIT
+CS          0.5 Cornell
+Books       0.15 MIT
+Education   0.35 Stanford
+education   0.35 Yale
+Education   0.35 Princeton
+EDUCATION   0.2  MIT
+Books       0.25 Barnes & Nobel
+books       0.25 Borders
+newS        1.9   BBC
+car         5.5 TOYOTA
+CAR         5.5 Honda
+Car         5.5 Acura
+car         6.0 Lexus
+CAR         6.0 BMW
+car         6.0 Mercedes Benz
+car         5.0 Nissan
+CAR         5.0 Ford
+Car         5.0 Volkswagen
+news        2.0 CBS
+News        2.0 ABC
+News        2.0 NBC
+News        2.1 CNN
+NEWS        1.9 Fox
