@@ -1,0 +1,37 @@
+P1:
+
+(a) 1
+
+(b) "make clean" will remove all the .0 files in folder
+    "rm -f $(ODIR)/*.o *~ shape1 shape2 $(IDIR)/*~" will be executed
+    "make shape1" will try to use the associated files to compile shape1.exe 
+    "$(CC) -o $@ $^ $(CFLAGS) $(LIBS)" will be executed
+
+(c) In terms of Make, a phony target is a target that is always out-of-date, so it will
+    always run no matter the state of the file system, even if there's a file named "clean"
+    in the directory
+
+(d) 2, 4
+
+P2:
+
+(a) unmodified
+
+(b) README:Modified, has changes not staged
+    Funprob:Untracked, has changes not staged 
+
+(c) README:changes Staged
+    Funprob:changes Staged
+
+(d) both Modified, has changes not staged
+
+(e) README:changes staged
+    Funprob:unmodified
+    Content of fun_prob is empty because this command discard local changes to that file to the state of last commit 
+
+(f) README:Modified, has both changes staged and not staged
+    Becuase the change before last add is staged, the change after last add is not staged
+
+(g) >figure courtesy of the [Pro Git](http://git-scm.com/book) book by Scott Chacon
+    Markdown is easy
+Markdown is too easy

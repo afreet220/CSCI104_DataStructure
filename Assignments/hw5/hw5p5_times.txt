@@ -1,0 +1,24 @@
+The following are all worst case occur during my test:
+
+LinkedList front insert:  0.000s
+LinkedList back insert:   0.015s
+
+PlusOneArrayList front insert: 6.844s
+PlusOneArrayList back insert: 3.797s
+
+PlusTenArrayList front insert: 3.422s
+PlusTenArrayList back insert: 3.750s
+
+DoublingArrayList front insert: 3.047s
+DoublingArrayList back insert: 0.015s
+
+LinkedList has the lowest front insert time. Because it has a head pointer, front 
+insert won't need loop to achieve.My LinkedList is also implemented with tail pointer 
+so generally it's good for task that involving both front and back insert, if without 
+the tail pointer, it should only be good for front insert
+
+DoublingArrayList has the lowest back insert time. Because it's implemented with array,
+by index it doesn't need loop to locate the tail, except during resizing.But with doubling
+resize, this won't happen too many times. since stack is only involving backinsert, I chose 
+it as the container for stack
+
